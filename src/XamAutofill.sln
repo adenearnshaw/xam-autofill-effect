@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamAutofill.Droid", "XamAutofill\XamAutofill.Android\XamAutofill.Droid.csproj", "{361FE999-0BF6-4EF3-8782-DAEC35FEB5C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamAutofill", "XamAutofill\XamAutofill\XamAutofill.csproj", "{A2E864FB-A085-430B-95ED-CAC11B4BA4FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{361FE999-0BF6-4EF3-8782-DAEC35FEB5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361FE999-0BF6-4EF3-8782-DAEC35FEB5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361FE999-0BF6-4EF3-8782-DAEC35FEB5C5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{361FE999-0BF6-4EF3-8782-DAEC35FEB5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361FE999-0BF6-4EF3-8782-DAEC35FEB5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361FE999-0BF6-4EF3-8782-DAEC35FEB5C5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A2E864FB-A085-430B-95ED-CAC11B4BA4FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E864FB-A085-430B-95ED-CAC11B4BA4FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E864FB-A085-430B-95ED-CAC11B4BA4FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2E864FB-A085-430B-95ED-CAC11B4BA4FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E864FB-A085-430B-95ED-CAC11B4BA4FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E864FB-A085-430B-95ED-CAC11B4BA4FC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F1E1D1B-7A79-476D-AC32-700C0A145AD5}
+	EndGlobalSection
+EndGlobal

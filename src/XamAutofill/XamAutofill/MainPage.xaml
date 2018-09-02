@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:android="clr-namespace:XamAutofill.PlatformConfiguration.AndroidSpecific;assembly=XamAutofill"
+             x:Class="XamAutofill.MainPage" >
+    <StackLayout Margin="12,12,12,12">
+        <Entry HorizontalOptions="Fill"
+               Placeholder="Your name"
+               Keyboard="Text"
+               android:Entry.AutofillHint="Name">
+        </Entry>
+        <Entry HorizontalOptions="Fill"
+               Placeholder="Your email"
+               Keyboard="Email"
+               android:Entry.AutofillHint="EmailAddress">
+        </Entry>
+        <Entry HorizontalOptions="Fill"
+               Placeholder="Your postcode"
+               Keyboard="Default"
+               android:Entry.AutofillHint="PostalCode">
+        </Entry>
+        <Entry x:Name="PhoneEntry"
+               HorizontalOptions="Fill"
+               Placeholder="Your phone"
+               Keyboard="Telephone">
+        </Entry>
+        <Entry HorizontalOptions="Fill"
+               Placeholder="Your thing"
+               android:Entry.AutofillHint="None">
+        </Entry>
+        <Entry HorizontalOptions="Fill"
+               Placeholder="Your other thing">
+        </Entry>
+    </StackLayout>
+</ContentPage>
